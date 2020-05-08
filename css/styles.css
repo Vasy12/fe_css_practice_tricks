@@ -1,51 +1,27 @@
-/*
-   + color	Sets the color of text
-   + direction	Specifies the text direction/writing direction
-   + letter-spacing	Increases or decreases the space between characters in a text
-   + line-height	Sets the line height
-   + text-align	Specifies the horizontal alignment of text
-   + text-decoration	Specifies the decoration added to text
-   + text-indent	Specifies the indentation of the first line in a text-block
-   - text-shadow	Specifies the shadow effect added to text
-   + text-transform	Controls the capitalization of text
-   + text-overflow	Specifies how overflowed content that is not displayed should be signaled to the user
-   - unicode-bidi	Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
-   - vertical-align	Sets the vertical alignment of an element
-   + white-space	Specifies how white-space inside an element is handled
-   + word-spacing	Increases or decreases the space between words in a text
-*/
-
-/*
-    word-spacing
-    letter-spacing
-    text-indent
-*/
-
-/*
-    overflow:
-        white-spacing
-        text-overflow
-*/
-
-/*
-    display: block | inline | inline-block | none
-*/
-
-
-
-
-
-.whiteSpacingExample{
-    min-width: 60px;
-    width: 50%;
-
-
-    max-width: 120px;
-    white-space: nowrap;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
 }
 
-body{
-    margin: 0;
+.item{
+    box-sizing: border-box;
+    border: 4px solid red;
+    background: orange;
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    color: white;
+}
+
+.item1 {
+    display: inline-block;
+}
+
+.item2 {
+    display: inline;
+}
+
+.item3 {
+    margin: auto;
 }
